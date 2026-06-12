@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Ahmed",
+    "designation": "Professor",
+    "department": "Computer Science",
+    "image": "/faculty/sara.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ali Khan",
+    "designation": "Associate Professor",
+    "department": "Electrical Engineering",
+    "image": "/faculty/ali.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Ms. Maria Khan",
+    "designation": "Lecturer",
+    "department": "Business Administration",
+    "image": "/faculty/maria.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Mr. Kamran Ahmed",
+    "designation": "Lecturer",
+    "department": "Software Engineering",
+    "image": "/faculty/kamran.jpeg"
+  }
+]

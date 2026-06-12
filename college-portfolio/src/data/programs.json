@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Computer Science",
+    "courses": [
+      "Programming Fundamentals",
+      "Data Structures",
+      "Database Systems",
+      "Web Development"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Business Administration",
+    "courses": [
+      "Marketing",
+      "Finance",
+      "Management"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Electrical Engineering",
+    "courses": [
+      "Circuit Analysis",
+      "Signals & Systems",
+      "Power Systems"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Software Engineering",
+    "courses": [
+      "Object-Oriented Programming",
+      "Software Design and Architecture",
+      "Software Quality Assurance",
+      "Mobile Application Development"
+    ]
+  }
+]
