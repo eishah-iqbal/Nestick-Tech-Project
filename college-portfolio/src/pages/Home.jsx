@@ -22,28 +22,31 @@ export default function Home() {
 
         {/* CONTENT CARD */}
         <div className="relative z-10 text-center px-6">
+          <div className="backdrop-blur-sm bg-white/10 border border-white/20 rounded-2xl 
+            p-6 md:p-10 
+            shadow-2xl max-w-2xl mx-auto animate-fadeUp
+            max-h-[70vh] md:max-h-none overflow-hidden">
 
-          <div className="backdrop-blur-sm bg-white/10 border border-white/20 rounded-2xl p-10 shadow-2xl max-w-2xl mx-auto animate-fadeUp">
-
-            <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-2xl md:text-6xl font-bold text-white leading-tight">
               Shape Your Future at{" "}
               <span className="text-[#e0c097]">Nestick College</span>
             </h1>
-
-            <div className="mt-6 flex gap-4 justify-center">
+            <div className="mt-4 md:mt-6 flex gap-3 md:gap-4 justify-center flex-col sm:flex-row">
+  
               <Link
                 to="/programs"
-                className="px-6 py-3 bg-[#a6140c] hover:bg-[#6a0e09] transition rounded-full text-white shadow-lg"
+                className="px-4 py-2 md:px-6 md:py-3 text-sm md:text-base bg-[#a6140c] hover:bg-[#6a0e09] transition rounded-full text-white shadow-lg"
               >
                 Explore Programs
               </Link>
 
               <Link
                 to="/faculty"
-                className="px-6 py-3 border border-white/40 hover:bg-white/10 transition rounded-full text-white"
+                className="px-4 py-2 md:px-6 md:py-3 text-sm md:text-base border border-white/40 hover:bg-white/10 transition rounded-full text-white"
               >
                 Meet Faculty
               </Link>
+
             </div>
           </div>
         </div>
