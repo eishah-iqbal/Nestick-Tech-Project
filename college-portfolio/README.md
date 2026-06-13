@@ -54,7 +54,7 @@ npm run dev
 The project is deployed using **Vercel**.
 
 ```bash
-👉 Live Demo: https://nestick-tech-project-eishah-iqbals-projects.vercel.app/
+👉 Live Demo: https://nestick-tech-project.vercel.app/
 ```
 
 ---
