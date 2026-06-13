@@ -53,10 +53,18 @@ export default function Home() {
       <section className="max-w-5xl mx-auto py-16 px-4">
         <h2 className="text-3xl font-bold mb-4">About Our Institute</h2>
         <p className="text-gray-600 leading-relaxed">
-          Nestick College is committed to delivering quality education and
-          fostering innovation. Established with a vision to empower students,
-          we provide a strong academic environment, modern facilities, and
-          industry-focused programs.
+          Founded in 1998, Nestick College has built a strong reputation for
+          academic excellence and student success. Over the years, the institution
+          has grown into a dynamic learning community offering programs designed to
+          meet the demands of a rapidly changing world.
+        </p>
+
+        <p className="text-gray-600 leading-relaxed mt-4">
+          Our vision is to empower students with knowledge, innovation, and
+          leadership skills that enable them to make meaningful contributions to
+          society. Through experienced faculty, modern facilities, and
+          industry-focused education, we strive to prepare graduates for lifelong
+          success.
         </p>
       </section>
 
@@ -71,17 +79,17 @@ export default function Home() {
 
         {/* SUBTITLE */}
         <p className=" text-gray-600 mt-2 mb-10">
-          Choose from a wide range of academic disciplines designed for your future
+          Choose from a wide range of academic disciplines designed for your future.
         </p>
 
         {/* GRID */}
         <div className="grid md:grid-cols-3 gap-6">
-          {["Computer Science", "Engineering", "Business"].map((item, i) => (
-            <div
+          {["Computer Science", "Electrical Engineering", "Business Administration"].map((item, i) => (
+            <Link
               key={i}
+              to={`/programs?program=${encodeURIComponent(item)}`}
               className="group bg-white p-6 rounded-2xl border border-gray-100 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
-
               <h3 className="font-bold text-lg text-gray-800 group-hover:text-[#a6140c] transition">
                 {item}
               </h3>
@@ -89,7 +97,7 @@ export default function Home() {
               <p className="text-sm text-gray-500 mt-2">
                 Explore {item} programs and career paths
               </p>
-            </div>
+            </Link>
           ))}
         </div>
 
