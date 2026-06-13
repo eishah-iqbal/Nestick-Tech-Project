@@ -1,16 +1,93 @@
-# React + Vite
+# 🎓 Nestick College - College Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive college portfolio website built as part of an onboarding project. The website showcases the institute’s information, faculty members, and academic programs in a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+- React.js (Vite)
+- React Router DOM
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Home page with hero section, about institute, and quick links
+- 👨‍🏫 Faculty directory with clean card layout
+- 📚 Programs page with courses under each program
+- 📱 Fully responsive design (mobile + desktop)
+- 🎨 Modern UI with hover effects and smooth transitions
+- 🔗 Navigation using React Router
+
+---
+
+## 🧑‍💻 Local Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/eishah-iqbal/Nestick-Tech-Project/tree/main/college-portfolio
+```
+
+### 2. Navigate to project folder
+```bash
+cd college-portfolio
+```
+
+### 3. Install dependencies
+```bash
+npm install
+```
+
+### 4. Start development server
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using **Vercel**.
+
+👉 Live Demo: 
+
+---
+
+## 📌 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── data/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## ✨ Highlights
+
+- Clean and modern UI design
+- Smooth hover interactions
+- Fully responsive layout
+- Component-based architecture
+- Beginner-friendly React structure
+- Real-world routing implementation
+
+---
+
+## 👨‍💻 Author
+
+Built by: **Eishah Iqbal**
+
+---
+
+## 📄 License
+
+This project is for educational and internship submission purposes.
